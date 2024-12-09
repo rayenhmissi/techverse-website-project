@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cpu</title>
+        <link rel="stylesheet" href="s3.css">
+        <link rel="icon" href="cpu.jpg">
+    </head>
+    <body>
+        <header>techverse</header>
+        <form action="gpu.html">
+        <h3>introduction</h3>
+        <p>welcome in this unit we will discover the types of processing units and let's 
+            start by the central processing unit or the CPU.
+        </p>
+        <h3>table of content</h3>
+        <div class="d">
+            <ol>
+                <li class="l">
+                    <a href="#rc">the role of the cpu</a><br>
+                </li>
+                <li class="l">
+                    <a href="#ce">the evolution of the cpu</a><br>
+                </li>
+                <li class="l">
+                    <a href="#ci">cpu ISA</a>
+                </li>
+                <li class="l">
+                    <a href="#co">microprocessors companies</a><br>
+                </li>
+            </ol>
+        </div>
+        <ol>
+            <li class="li"><h4>component of cpu and performance</h4></li>
+            <h3>cpu component</h3>
+            <p>
+            The central processing unit (CPU) is fabricated from silicon, which houses numerous transistors. 
+            Within the CPU, there are distinct groups known as cores, each operating at a specific frequency.
+            </p>
+                <h3 id="rc">the roles of the CPUs:</h3>
+                <p>
+                    The central processing unit (CPU) is responsible for executing instructions, managing input and output
+                    operations, and performing arithmetic and logical operations using the Arithmetic Logic Unit (ALU).
+                    Additionally, it includes a control unit and registers to store intermediate data. 
+                    Furthermore, the CPU features a cache for efficiently storing frequently accessed data.
+                </p>
+                <h3 id="ce">cpu evolution</h3>
+                <p>
+                    Central Processing Units (CPUs) have undergone significant architectural changes over time. 
+                    Initially, they followed the Harvard architecture, which featured separate memory for instructions and data. 
+                    Later, the Von Neumann architecture emerged, integrating instruction and data memory. 
+                    Finally, microprocessors became prevalent, combining both functions into a single chip.
+            </p>
+            <img src="cpu.jpg">
+            <li class="li"><h4 id="ci">cpu ISA</h4></li>
+            <p>
+                ISA (Instruction Set Architecture) is the way that cpu work and excute the programs launched by the user.
+                RISC (Reduced Instruction Set Computer) is an ISA that excute simple and minimalistic code and 
+                CISC (Complex Instruction Set Computer) is an ISA that excute complex code and programs.
+                RISC  is used mostly for mobile and embedded devices.
+                CISC is used mostly in data centers ,super computers and personal computers.<br>
+                <img src="isa.jpg"><br>
+            </p>
+            <li class="li"><h4 id="co">microprocessor companies</h4></li>
+            <p>
+In recent years, several companies have been prominent in the CPU market. Intel produces Core i5 and i7 processors for
+consumers and Xeon CPUs for servers. AMD offers Ryzen processors for consumers and Threadripper and EPYC CPUs for servers.
+Both companies utilize the x86 architecture, originally developed by Intel, which employs a CISC (Complex Instruction Set Computing) ISA.
+IBM previously manufactured CPUs known as PowerPC. However, they have since shifted focus to quantum computing and AI.
+Qualcomm and MediaTek design processors based on the ARM architecture, which is developed by ARM Holdings. This architecture uses a RISC 
+(Reduced Instruction Set Computing) ISA and is predominantly used in modern smartphones and select laptops.
+Apple designs its own SoCs (System on Chips), which integrate the CPU, GPU, NPU, memory, and other components into a single chip.
+It’s important to note that Qualcomm and Apple design their chips but do not manufacture them. The actual production is carried out
+ by semiconductor fabrication plants (fabs) such as TSMC, Intel, Samsung, and SMIC, which produce the CPUs used in our devices.
+            </p>
+            </ol>
+            <input type="submit" class="b" value="next lesson">
+            </form>
+    </body>
+    </html>

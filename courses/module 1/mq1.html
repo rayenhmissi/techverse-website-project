@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="s3.css">
+        <link rel="icon" href="mq.jpg">
+        <script src="j1.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>module 1 quiz</title>
+    </head>
+    <body>
+        <header>techverse</header>
+        <form onsubmit="">
+            <fieldset>
+                <legend>question 1</legend>
+                <h3>what is a CPU ?</h3>
+                <input type="radio" id="r1" name="q1">a unit that processes animations and visuals.<br>
+                <input type="radio" id="r2" name="q1">a unit that processes program instructions.<br>
+                <input type="radio" id="r3" name="q1">a unit that processes neural networks<br>
+                <p id="p1"></p>
+            </fieldset>
+        <fieldset>
+            <legend>question 2</legend>
+            <h3>what is a GPU ?</h3>
+            <input type="radio" id="r4" name="q2">a unit that processes animations and visuals.<br>
+            <input type="radio" id="r5" name="q2">a unit that processes program instructions.<br>
+            <input type="radio" id="r6" name="q2">a unit that processes neural networks<br>
+            <p id="p2"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 3</legend>
+            <h3>what are the memory types that are located within the CPU ?</h3>
+            <input type="checkbox" id="r7" value="RAM" name="q3">RAM <br>
+            <input type="checkbox" id="r8" value="cache" name="q3">cache<br>
+            <input type="checkbox" id="r9" value="hard disk" name="q3">hard disk<br>
+            <input type="checkbox" id="r10" value="register" name="q3">register<br>
+            <p id="p3"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 4</legend>
+            <h3>True or False</h3>
+            <table>
+                <tr>
+                    <th>questions</th>
+                    <th>True</th>
+                    <th>False</th>
+                </tr>
+                <tr>
+                    <td>HDD is slower than SSD.</td>
+                    <td><input type="radio" id="r11" name="q4"></td>
+                    <td><input type="radio" id="r12" name="q4"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="ch1"></td>
+                </tr>
+                <tr>
+                    <td>register is slower than cache.</td>
+                    <td><input type="radio" id="r13" name="q5"></td>
+                    <td><input type="radio" id="r14" name="q5"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="ch2"></td>
+                </tr>
+                <tr>
+                    <td>register saves frequently used data.</td>
+                    <td><input type="radio" id="r15" name="q6"></td>
+                    <td><input type="radio" id="r16" name="q6"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="ch3"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>question 5</legend>
+            <h3>calculate :</h3>
+                250 MB= <input type="number" id="r17"> KB.<br>
+                <p id="p5"></p>
+                3072 MB=<input type="number" id="r18"> GB<br>
+                <p id="p6"></p>
+                10 MB= <input type="number" id="r19"> Byte<br>
+                <p id="p7"></p>
+                25 Bytes= <input type="number" id="r20"> Bit.<br>
+                <p id="p8"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 6</legend>
+            <h3>what you can do with HDMI?</h3>
+            <input type="radio" id="r21" name="q7">connect peripherals<br>
+            <input type="radio" id="r22" name="q7">connect TV<br>
+            <input type="radio" id="r23" name="q7">charge a device<br>
+            <p id="p9"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 7</legend>
+            <h3>Do we need active cooling for laptops?</h3>
+            <input type="radio" id="r24" name="q8">yes<br>
+            <input type="radio" id="r25" name="q8">no<br>
+            <input type="radio" id="r26" name="q8">only for gaming devices that have a power hungry CPU and when we a stable performance for a long time<br>
+            <p id="p10"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 8</legend>
+            <h3>what is the differences between IPS and TN ? (give one answer)</h3>
+            <input type="radio" id="r27" name="q9">resolution<br>
+            <input type="radio" id="r28" name="q9">size<br>
+            <input type="radio" id="r29" name="q9">response time<br>
+            <p id="p11"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 9</legend>
+            <h3>what is the difference between OLED and LCD?</h3>
+            <input type="radio" id="r30" name="q10">LCD uses transistor instead of organic LED in OLED.</tr><br>
+            <input type="radio" id="r31" name="q10">refresh rate<br>
+            <input type="radio" id="r32" name="q10"> brightness<br>
+            <p id="p12"></p>
+        </fieldset>
+        <fieldset>
+            <legend>question 10</legend>
+            <h3>we mesure the refresh rate by:</h3>
+            <select id="r33">
+                <option value="hz">Hz</option>
+                <option value="fps">fps</option>
+                <option value="pixels">pixels</option>
+            </select>
+            <p id="p13"></p>
+        </fieldset>
+        <input type="button" class="b" value="verify" onclick="verify()">
+        </form>
+    </body>
+</html>

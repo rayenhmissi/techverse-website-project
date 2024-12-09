@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../module 1/s3.css">
+        <link rel="icon" href="../code.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>conditions</title>
+    </head>
+    <body>
+        <header>techverse</header>
+        <form action="loop.html">
+        <h3>introduction</h3>
+        <p>
+            variables are object that can be given by 
+            user input and these variables can be controlled
+            by conditions.so let's dive in.<br>
+            <span>
+                all the examples in this course are writen in c 
+                so the syntax may vary in other programming languages
+            </span>
+        </p>
+        <h3>table of content</h3>
+        <div class="d">
+            <ol>
+                <li><a href="#l1">if,else,else if</a></li>
+                <li><a href="#l">comparison and logical operations</a></li>
+                <li><a href="#l2">switch</a></li>
+            </ol>    
+        </div>
+        <ol>
+            <li class="li" id="l1">if,else,else if</li>
+            <p>
+                if statement give a condition to a variable.
+                here an example:<br>
+                <code>
+                    if (x==1){<br>
+                        printf("true");<br>
+                    }
+                </code><br>
+                else if means the opposite of the previous condition.
+                for example:<br>
+                <code>
+                    else if (x==0){<br>
+                        printf("false");<br>
+                    }
+                </code><br>
+                else means that the opposite of if statement.for example 
+                the opposite of all the previous if statement is:<br>
+                <code>
+                    else {<br>
+                        printf("false");<br>
+                    }
+                </code><br>
+            </p>
+            <li class="li" id="l">comparison and logical operations:</li><br>
+            <ul>
+                <li> < :smaller than </li>
+                <li> > :greater than </li>
+                <li> == :equal to </li>
+                <li> <= :smaller or equal than </li>
+                <li> >= :greater or equal than </li>
+                <li> != :not equal </li>
+                <li> && :and </li>
+                <li> || :or </li>
+                <li> % :mod</li>
+            </ul><br>
+            <li class="li" id="l2">switch</li>
+            <p>
+                switch statement is used mostly for simple data types to
+                optimise the code.here is an example:<br>
+                <code>
+                    switch{<br>
+                        case 1{<br>
+                            printf("january");<br>
+                        }<br>
+                        case 2{<br>
+                            printf("february");<br>
+                        }...<br>
+                    }
+                </code><br>
+                but it is onlly used for one variable so we can't compare two variables or use '||' or '&&'. 
+            </p>
+        </ol>
+        <input type="submit" class="b" value="next lesson">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpu</title>
+    <link rel="stylesheet" href="s3.css">
+    <link rel="icon" href="gpu.jpg">
+</head>
+<body>
+    <header>techverse</header>
+    <form action="npu.html">
+    <h3>introduction</h3>
+    <p>
+        in the previous lesson ,we leaarn about the cpu 
+        and today let's discover the gpu .let's dive in.
+    </p>
+    <h3>table of content</h3>
+    <div class="d">
+        <ol>
+            <li><a href="#gd">gpu definition</a></li>
+            <li><a href="#geu">gpu excution units</a></li>
+            <li><a href="#gsh">gpu shaders</a></li>
+            <li><a href="#ga">gpu APIs</a></li>
+            <li><a href="#rt">ray tracing</a></li>
+            <li><a href="#up">upscalling</a></li>
+            <li><a href="#tf">flops</a></li>
+        </ol>
+    </div>
+    <ol type="I">
+        <li class="li"><h4 id="gd">gpu definition</h4></li>
+        <p>gpu (graphical processing unit) is a processing unit that is spesialised in the graphic related tasks like 3d ,animation and gaming. </p><br>
+        <img src="gpu.jpg">
+        <li class="li"><h4>gpu technologies</h4></li>
+        <ol>
+            <li class="li"><h4 id="geu">gpu excution units</h4></li>
+            <p>as the cpu ,the gpu also has cores called excution units that to handle 
+                tasks that the gpu can handle like graphics,3d,photos and animation and AI and ML tasks
+                but gpus are very power hungry that why NPU (neural processing unit) exists to handdle AI tasks
+                and allow the gpu to focus on more important tasks.we talk more about NPU in the next lesson.
+            </p>
+            <li class="li"><h4 id="gsh">gpu shaders</h4></li>
+            <p>
+            Shaders are responsible for instructing the execution units on how to process and render graphics. 
+            They utilize shading languages, which vary depending on the graphics API being used.
+            </p>
+            <li class="li"><h4 id="ga">gpu API</h4></li>
+            <p>
+                Graphics APIs enable developers to utilize
+                libraries and tools for creating applications 
+                that rely on advanced graphics or high-quality games.
+                Popular examples include Metal, DirectX, and Vulkan.
+            </p>
+            <li class="li"><h4 id="rt">ray tracing technology</h4></li>
+            <p>
+                Ray tracing is a technology utilized in modern GPUs, 
+                such as NVIDIA’s RTX series. It enables the simulation of
+                light tracing objects to create realistic reflections and dynamic
+                 lighting effects,resulting in stunning visual quality.
+            </p>
+            <li class="li"><h4 id="up">upscaling</h4></li>
+            <p>
+                upscaling is a way to increase the resolution and the framerate
+                that we will talk about the display lesson but now you should know that 
+                what is upscalling .NVIDIA DLSS and AMD FSR and apple metal fx upscaling 
+                are using this technology in their GPUs to improve performance.
+            </p>
+            <li class="li"><h4 id="tf">flops</h4></li>
+            <p>
+                Floating Point Operations Per Second (FLOPS) is a unit used to measure the
+                computational power of a GPU, indicating how many floating-point operations it 
+                can handle per second. To calculate it, you multiply the GPU’s clock speed by 
+                the number of floating-point operations per cycle and the number of shader cores.
+                The formula is: Clock Speed×FLOPs per Cycle×Shader Coun.
+            </p>
+        </ol>
+    </ol>
+    <input type="submit" class="b" value="next lesson">
+    </form>
+</body>
+</html>

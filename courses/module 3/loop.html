@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../module 1/s3.css">
+        <link rel="icon" href="../code.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>loop</title>
+    </head>
+    <body>
+        <form action="functions.html">
+        <header>techverse</header>
+        <h3>introduction</h3>
+        <p>
+            sometimes you  need to repeat operations like counting 
+            and calculations like sum of sequential numbers.it is 
+            a bad idea to write the same code many times.so we use something 
+            called loops to repeat code with parametre changes.let's discover 
+            them.
+        </p>
+        <h3>table of content</h3>
+        <div class="d">
+            <ol>
+                <li><a href="#l1">for loop</a></li>
+                <li><a href="#l2">while loop</a></li>
+                <li><a href="#l3">do while loop</a></li>
+            </ol>
+            </div>
+            <ol>
+                <li class="li" id="l1">for loop</li>
+                <p>
+                    for loop has a starting point and a finishing point 
+                    for example from 1 to 10 so it repeats the operation 
+                    until passing the finishing point.here an example:
+                    let's calculate the sum from 1 to 10 .so we have the counter c from 
+                    1 to 10 and we initialise the s variable from 0.
+                    here is the code :<br>
+                    <code>
+                        int s=0;//initialising s <br>
+                        for (int c=0;c <= 10;c++){
+                            //c counter begins from 0 and add 1 to its value every iteration<br>
+                            s=s+c;//adding c to the sum <br>
+                        }
+                    </code>
+                </p><br>
+                <li class="li" id="l2">while loop</li>
+                <p>
+                    while loop means while the condition is true it repeats the operation until 
+                    the condition become false.here an example:<br>
+                    <code>
+                        int c=0; //initialising the counter <br>
+                        int s=0; //initialising the sum s<br>
+                        while (c < 10){ //while c does not pass the condition<br>
+                            s+=c; //add c to the sum s<br>
+                            c++;//add 1 step to the counter <br>
+                        }
+                    </code>
+                </p><br>
+                <li class="li" id="l3">do while loop</li>
+                <p>
+                    do while loop is the same as while loop but with syntax differences.
+                    it means do the operation while the condition is true.here an example:<br>
+                    <code>
+                        int c=0,s=0;//initialising s sum and c counter <br>
+                        do{
+                            s+=c;//add the counter to the sum <br>
+                            c++;//add 1 step to the counter <br>
+                        }while (c < 10);//while c does not pass 10
+                    </code>
+                </p><br>
+            </ol>
+            <input type="submit" class="b" value="next lesson">
+            </form>
+    </body>
+</html>

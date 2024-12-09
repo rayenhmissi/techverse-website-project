@@ -1,0 +1,87 @@
+header{
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(95, 95, 255));
+    color:white;
+    width:100%;
+    height:40px;
+    text-align:left;
+    font-size:25px;
+    border-radius: 5px;
+}
+.d{
+    background-image: linear-gradient(rgb(0, 0, 178),rgb(95, 95, 255));
+    border-radius:10px;
+}
+#d1 {
+    background-image: linear-gradient(rgb(0, 0, 178),rgb(95, 95, 255));
+    border-radius:10px;
+}
+a{
+    color:white;
+}
+img {
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+}
+span {
+    text-decoration: underline;
+}
+p{
+    background-image: linear-gradient(rgb(0, 255, 229),rgb(7, 177, 160));
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+table{
+    border-radius: 10px;
+    background-color: turquoise;
+}
+h3,h4,.li,ul{
+    background-image: linear-gradient(rgb(0, 0, 178),rgb(95, 95, 255));
+    border-radius: 10px;
+    color:white;
+}
+fieldset{
+    background-image: linear-gradient(rgb(0, 255, 229),rgb(7, 177, 160));
+    border-radius: 10px;
+}
+legend {
+    background-image: linear-gradient(rgb(0, 80, 178),rgb(100, 95, 255));
+    border-radius: 10px;
+    border: 1px;
+    border-style:solid;
+    color:white;
+}
+#b {
+    background-image: linear-gradient(rgb(47, 47, 159),rgb(82, 82, 187));
+    border-radius: 5px;
+    color:white;
+}
+.b{
+    background-image: linear-gradient(red,rgba(255, 0, 0, 0.677));
+    color:white;
+    border-radius:5px;
+    position:relative;
+    left:45%;
+}
+.b:hover{
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(233, 161, 161));
+}
+.l{
+    color:white;
+}
+code {
+    text-transform: none;
+}
+.in{
+    width: 100%;
+    height: 150px;
+    background-color: cyan;
+    border-radius:10px;
+}
+input,select{
+    background-color: cyan;
+    border-radius:10px;
+}
+#ch{
+    color:white;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../module 1/s3.css">
+        <link rel="icon" href="../code.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>function</title>
+    </head>
+<body>
+    <form action="mq3.html">
+    <header>techverse</header>
+    <h3>introduction</h3>
+    <p>in any programming language,there are many predefined
+        functions that developers can use but sometimes we want 
+        to make other functions that are not built in the language.
+        and they want also to don't write the same code but with 
+        value changes.so let's see how to create and manage our own 
+        functions.
+    </p>
+    <h3>table of content</h3>
+    <div class="d">
+        <ol>
+            <li><a href="#l1">how to create a function</a></li>
+            <li><a href="#l2">how to manage parametres</a></li>
+            <li><a href="#l3">recursion</a></li>
+        </ol>
+    </div>
+    <ol>
+        <li id="l1" class="li">how to create a function</li>
+        <p>
+            to create a function in c ,we need to know:
+        </p>
+            <ul>
+                <li>data type returned</li>
+                <li>function name</li>
+                <li>parameters needed</li>
+            </ul>
+        <p>
+            for example if we need to create a function to calculate the sum:
+            first we write int as the data type returned.second,we rename 
+            the function and finally we define x and y as parameters like this:<br>
+            <code>
+                int sum(x,y){//defining the function <br>
+                    return x+y;//return the sum of x and y<br>
+                }
+            </code><br>
+            sometimes we need to write a function that does not return a simple data 
+            type so we use void to do this .here an example :<br>
+            <code>
+                void hello(){<br>
+                    printf("hello");//display the word "hello" in the terminal.<br>
+                }
+            </code><br>
+            we can void in the main function too.
+        </p>
+        <li class="li" id="l2">how to manage parameters</li>
+        <p>
+            we can change the value of the parameters like here:<br>
+            <code>
+                sum(5,5);
+            </code><br>
+            or define the parameters and get them by user input like here:<br>
+            <code>
+                int x=scanf("%d",&x); //input x<br>
+                int y=scanf("%d",&y); //input y <br>
+                // %d is used for digital number<br>
+                // %f is used for float variables<br>
+            </code>
+        </p>
+        <li class="li" id="l3">recursion</li>
+        <p>
+            in normal case,we create the function once and 
+            we call it with parameters value changer and cannot 
+            call the function with more than the number of defined 
+            parameters.but recursion is making the function call itself
+            and change its parameter's value until a stop condition is 
+            found.here an example:<br>
+            <code>
+                int fact(int x){//calculate the factorial of the parameter x<br>
+                    if (x <= 1){ //stop function<br>
+                        return 1;//fact(0) and fact(1) =1<br>
+                    }<br>
+                    else{//if x more than 1<br>
+                        return x*fact(x-1);//multiplying x by factorial of x-1<br>
+                    }
+                }
+            </code>
+            here how it work:<br>
+            <div class="d">
+            <ol>
+                <li class="li">fact(5)=5*fact(4)</li>
+                <li class="li">fact(4)=4*fact(3)</li>
+                <li class="li">fact(3)=3*fact(2)</li>
+                <li class="li">fact(2)=2*fact(1)</li>
+                <li class="li">fact(1)=1</li>
+                <li class="li">fact(2)=2*1=2</li>
+                <li class="li">fact(3)=3*2=6</li>
+                <li class="li">fact(4)=4*6=24</li>
+                <li class="li">fact(5)=5*24=120</li>
+            </ol>
+            </div>
+            </p>
+            <p>
+            as you can see the function work from the the parameter value to the stop condition 
+            and then start calculation from the value given from the stop condition.
+        </p>
+    </ol>
+    <input type="submit" class="b" value="go to quiz">
+</form>
+</body>
+</html>
